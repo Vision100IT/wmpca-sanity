@@ -12,7 +12,7 @@ import author from './author'
 import speaker from './speaker'
 import page from './page'
 import wmVideo from './wm-video'
-import wmVideoSeries from './wm-video.series'
+import wmVideoSeries from './wm-video-series'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
