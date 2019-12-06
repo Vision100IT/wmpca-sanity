@@ -1,6 +1,6 @@
 export default {
-    name: 'wmvideoseries',
-    title: 'WM Video Series',
+    name: 'videoseries',
+    title: 'Video Series',
     type: 'document',
     fields: [
         {

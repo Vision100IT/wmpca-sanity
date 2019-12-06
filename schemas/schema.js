@@ -11,8 +11,11 @@ import blogPost from './blog-post'
 import author from './author'
 import speaker from './speaker'
 import page from './page'
-import wmVideo from './wm-video'
-import wmVideoSeries from './wm-video-series'
+import video from './video'
+import videoSeries from './video-series'
+import menu from './menu'
+import main from './main'
+import newsletter from './newsletter'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,12 +27,15 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     author,
+    main,
     blogPost,
     category,
+    menu,
     page,
     speaker,
-    wmVideo,
-    wmVideoSeries,
+    video,
+    videoSeries,
+    newsletter,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent

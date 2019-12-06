@@ -1,6 +1,6 @@
 export default {
-    name: 'wmvideo',
-    title: 'WM Video',
+    name: 'video',
+    title: 'Video',
     type: 'document',
     fields: [
         {
@@ -29,7 +29,7 @@ export default {
             type: 'reference',
             to: [
                 {
-                    type: 'wmvideoseries'
+                    type: 'videoseries'
                 }
             ]
         },
