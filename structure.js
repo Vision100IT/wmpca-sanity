@@ -1,4 +1,12 @@
 import S from '@sanity/desk-tool/structure-builder';
+import {
+    MdAssignment,
+    MdHome,
+    MdVideoLibrary,
+    MdDescription,
+    MdCollectionsBookmark,
+    MdInsertDriveFile
+  } from 'react-icons/md';
 
 export default () =>
     S.list()
@@ -6,6 +14,7 @@ export default () =>
         .items([
             S.listItem()
                 .title('Front Page and Menu')
+                .icon(MdHome)
                 .child(
                     S.editor()
                         .title('Front Page and Menu')
@@ -15,21 +24,26 @@ export default () =>
                 ),
             S.listItem()
                 .title('Blog Post')
+                .icon(MdAssignment)
                 .child(S.documentTypeList('blog_post').title('Blog Post')),
             S.listItem()
                 .title('Pages')
+                .icon(MdInsertDriveFile)
                 .child(S.documentTypeList('page').title('Page')),
             S.listItem()
                 .title('Newsletter')
+                .icon(MdDescription)
                 .child(S.documentTypeList('newsletter').title('Newsletter')),
             S.listItem()
                 .title('Video')
+                .icon(MdVideoLibrary)
                 .child(S.documentTypeList('video').title('Video')),
             S.listItem()
-                .title('Other')
+                .title('Categories')
+                .icon(MdCollectionsBookmark)
                 .child(
                     S.list()
-                        .title('Other')
+                        .title('Categories')
                         .items([
                             S.listItem()
                                 .title('Author')
