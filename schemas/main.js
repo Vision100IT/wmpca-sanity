@@ -7,7 +7,12 @@ export default {
         {
             title: 'Heading',
             name: 'heading',
-            type: 'string'
+            type: 'array',
+            of: [
+                {
+                    type: 'string'
+                }
+            ]
         },
         {
             title: 'Image Carousel',
@@ -48,6 +53,11 @@ export default {
                     ]
                 }
             ]
+        },
+        {
+            name: 'welcome',
+            title: 'Welcome Text',
+            type: 'block-content'
         }
     ]
 };
