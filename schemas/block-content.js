@@ -48,6 +48,21 @@ export default {
                 validation: Rule => Rule.uri({scheme: ['http', 'https', 'mailto']})
               }
             ]
+          },
+          {
+            title: 'Internal Link',
+            name: 'internalLink',
+            type: 'object',
+            fields: [
+              {
+                title: 'Page Reference',
+                name: 'reference',
+                type: 'reference',
+                to: [
+                  {type: 'page'}
+                ]
+              }
+            ]
           }
         ]
       }
@@ -58,6 +73,11 @@ export default {
     {
       type: 'image',
       options: {hotspot: true}
+    },
+    {
+      title: 'Content block',
+      type: 'reference',
+      to: [{type: 'form'}]
     }
   ]
 }

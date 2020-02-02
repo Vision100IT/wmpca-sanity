@@ -39,6 +39,18 @@ export default () =>
                 .icon(MdVideoLibrary)
                 .child(S.documentTypeList('video').title('Video')),
             S.listItem()
+                .title('Body content blocks')
+                .icon(MdCollectionsBookmark)
+                .child(
+                S.list()
+                    .title('Body content blocks')
+                    .items([
+                    S.listItem()
+                        .title('Forms')
+                        .child(S.documentTypeList('form').title('Forms'))
+                    ])
+                ),
+            S.listItem()
                 .title('Categories')
                 .icon(MdCollectionsBookmark)
                 .child(
