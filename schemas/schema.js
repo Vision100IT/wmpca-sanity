@@ -18,6 +18,8 @@ import main from './main'
 import newsletter from './newsletter'
 import form from './form'
 import formField from './formField'
+import videoEmbed from './video-embed'
+import audioEmbed from './audio-embed'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -42,6 +44,8 @@ export default createSchema({
     formField,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
-    blockContent
+    blockContent,
+    videoEmbed,
+    audioEmbed
   ])
 })

@@ -23,6 +23,11 @@ export default {
               }
         },
         {
+            name: 'mainImage',
+            title: 'Page Header Image',
+            type: 'image'
+        },
+        {
             name: 'content',
             title: 'Content',
             type: 'block-content'

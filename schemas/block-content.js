@@ -78,6 +78,12 @@ export default {
       title: 'Content block',
       type: 'reference',
       to: [{type: 'form'}]
+    },
+    {
+      type: 'videoEmbed'
+    },
+    {
+      type: 'audioEmbed'
     }
   ]
 }
