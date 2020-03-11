@@ -964,9 +964,9 @@
     postcss-value-parser "^3.3.0"
     source-list-map "^2.0.0"
 
-"@sanity/dashboard@^0.147.8":
-  version "0.147.8"
-  resolved "https://registry.npmjs.org/@sanity/dashboard/-/dashboard-0.147.8.tgz#0edfdfcb9bc012a58112ad580318a46ee365d13e"
+"@sanity/dashboard@^1.149.3":
+  version "1.149.3"
+  resolved "https://registry.npmjs.org/@sanity/dashboard/-/dashboard-1.149.3.tgz#2e9b344149ed77a054435f8f69ec09a7bde99ded"
   dependencies:
     lodash "^4.17.15"
     react-icons "^2.2.7"
@@ -992,11 +992,11 @@
     react-tippy "^1.2.3"
     rxjs "^6.5.3"
 
-"@sanity/default-login@^0.147.0":
-  version "0.147.0"
-  resolved "https://registry.npmjs.org/@sanity/default-login/-/default-login-0.147.0.tgz#6177ab7df4475ff3950aa81ab4240f7274a6fc01"
+"@sanity/default-login@^1.149.0":
+  version "1.149.0"
+  resolved "https://registry.npmjs.org/@sanity/default-login/-/default-login-1.149.0.tgz#522e72ac165077d2a4a2115600042e82f37d17ae"
   dependencies:
-    "@sanity/generate-help-url" "0.147.0"
+    "@sanity/generate-help-url" "1.149.0"
     prop-types "^15.6.0"
     rxjs "^6.5.3"
 

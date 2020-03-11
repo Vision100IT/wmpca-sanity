@@ -17,9 +17,15 @@
     "@sanity/base": "^1.149.3",
     "@sanity/components": "^1.149.3",
     "@sanity/core": "^1.149.2",
+<<<<<<< HEAD
     "@sanity/dashboard": "^0.147.8",
     "@sanity/default-layout": "^1.149.3",
     "@sanity/default-login": "^0.147.0",
+=======
+    "@sanity/dashboard": "^1.149.3",
+    "@sanity/default-layout": "^1.149.3",
+    "@sanity/default-login": "^1.149.0",
+>>>>>>> eedd2467e045afd3f8d4dbb8941c7aafb0efc1ff
     "@sanity/desk-tool": "^1.149.3",
     "@sanity/vision": "^1.149.0",
     "@u-wave/react-vimeo": "^0.8.1",
