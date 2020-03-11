@@ -7,12 +7,8 @@ export default {
         {
             title: 'Heading',
             name: 'heading',
-            type: 'array',
-            of: [
-                {
-                    type: 'string'
-                }
-            ]
+            type: 'text',
+            rows: 2
         },
         {
             title: 'Image Carousel',
