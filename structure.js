@@ -5,7 +5,8 @@ import {
     MdVideoLibrary,
     MdDescription,
     MdCollectionsBookmark,
-    MdInsertDriveFile
+    MdInsertDriveFile,
+    MdBorderBottom
   } from 'react-icons/md';
 
 export default () =>
@@ -21,6 +22,16 @@ export default () =>
                         .id('global-main')
                         .schemaType('main')
                         .documentId('global-main')
+                ),
+            S.listItem()
+                .title('Footer')
+                .icon(MdBorderBottom)
+                .child(
+                    S.editor()
+                        .title('Footer')
+                        .id('global-footer')
+                        .schemaType('footer')
+                        .documentId('global-footer')
                 ),
             S.listItem()
                 .title('Blog Post')
@@ -48,7 +59,7 @@ export default () =>
                     S.listItem()
                         .title('Forms')
                         .child(S.documentTypeList('form').title('Forms'))
-                    ])
+                    ]),
                 ),
             S.listItem()
                 .title('Categories')

@@ -17,6 +17,7 @@ import menu from './menu'
 import main from './main'
 import newsletter from './newsletter'
 import form from './form'
+import footer from './footer'
 import formField from './formField'
 import videoEmbed from './video-embed'
 import audioEmbed from './audio-embed'
@@ -32,6 +33,7 @@ export default createSchema({
     // in the studio.
     author,
     main,
+    footer,
     blogPost,
     category,
     menu,
